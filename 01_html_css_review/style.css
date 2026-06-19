@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+}
+
+header {
+    background-color: #4f46e5;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #4f46e5;
+}
+
+.games {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.games a {
+    background-color: #4f46e5;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.games a:hover {
+    background-color: #3730a3;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f4f6f8;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 2px 5px lightgray;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
